@@ -225,6 +225,28 @@ button {
 }
 
 /* ========== DESIGN SECTION ========== */
+.design {
+	background: var(--white-clr);
+}
+
+.design-subtitle {
+	font-size: 1.2rem;
+	color: var(--dark-clr);
+	font-weight: 500;
+}
+
+.design-title {
+	font-size: 3rem;
+	color: var(--dark-clr);
+	line-height: 100%;
+	margin-top: 1rem;
+}
+
+.design-description {
+	color: var(--dark-clr);
+	font-size: 1.25rem;
+	margin-top: 2rem;
+}
 
 /* ========== .FEATURES SECTION ========== */
 
