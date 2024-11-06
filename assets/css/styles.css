@@ -249,6 +249,142 @@ button {
 }
 
 /* ========== .FEATURES SECTION ========== */
+.features {
+	background: var(--white-clr);
+}
+
+.features-img {
+	position: relative;
+}
+
+.feature img {
+	width: 25px;
+}
+
+.tooltip-item {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	background: var(--white-clr);
+	margin: 20px 0;
+	transition: 0.4s;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.tooltip-item::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	background: var(--white-clr);
+	animation: pulse-effect 1s ease-in-out infinite;
+}
+
+@keyframes pulse-effect {
+	0% {
+		transform: scale(0.5);
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(2.5);
+		opacity: 0;
+	}
+}
+
+.tooltip-content {
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	width: 200px;
+	background: var(--dark-clr);
+	padding: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.tooltip-content p span {
+	font-weight: bold;
+}
+
+.tooltip-item:hover .tooltip-content {
+	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip-item-1 {
+	position: absolute;
+	top: 3.2rem;
+	left: 9.75rem;
+}
+
+.tooltip-item-1 .tooltip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.tooltip-item-2 {
+	position: absolute;
+	top: 7.5rem;
+	left: 9.75rem;
+}
+
+.tooltip-item-2 .tooltip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.tooltip-item-3 {
+	position: absolute;
+	top: 11.6rem;
+	left: 9.75rem;
+}
+
+.tooltip-item-3 .tooltip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.tooltip-item-4 {
+	position: absolute;
+	top: 18rem;
+	left: 9.75rem;
+}
+
+.tooltip-item-4 .tooltip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.features-data {
+	padding-right: 3rem;
+}
+
+.feature-title {
+	font-size: 1rem;
+	color: var(--dark-clr);
+	font-weight: 600;
+	margin-top: 0.4rem;
+}
+
+.feature-details {
+	font-size: 0.8rem;
+	color: var(--text-color);
+	margin-top: 0.4rem;
+}
+
+.feature {
+	margin-top: 1.5rem;
+}
 
 /* ========== .CASE SECTION ========== */
 
