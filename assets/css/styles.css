@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+    --dark-clr: #0f0f10;
+    --container-dark-clr: #181a1b;
+    --blue-clr: #147ce5;
+    --alt-blue-clr: #1267bd;
+    --white-clr: #fff;
+    --text-color: #0f0f10c7;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 4rem 0 0 0;
+	font-size: 15px;
+	color: var(--white-clr);
+	font-family: "Poppins", sans-serif;
+	background: var(--dark-clr);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 600 !important;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.section {
+	padding: 4rem 0 2rem;
+}
+
+.container {
+	max-width: 968px;
+	margin-right: 1.5rem;
+	margin-left: 1.5rem;
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.btn {
+	padding: 12px 30px;
+	color: var(--white-clr);
+	background: var(--blue-clr);
+	border-radius: 50px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+
+.btn:hover {
+	background: var(--alt-blue-clr);
+}
+
+.btn-b {
+	padding: 12px 30px;
+	color: var(--white-clr);
+	border: 2px solid var(--white-clr);
+	border-radius: 50px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+
+.btn-b:hover {
+	background: var(--white-clr);
+	color: var(--dark-clr);
+	border: none;
+}
+
+/* ========== HEADER SECTION ========== */
+
+/* ========== HERO SECTION ========== */
+
+/* ========== DESIGN SECTION ========== */
+
+/* ========== .FEATURES SECTION ========== */
+
+/* ========== .CASE SECTION ========== */
+
