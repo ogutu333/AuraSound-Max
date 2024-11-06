@@ -100,12 +100,146 @@ button {
 }
 
 /* ========== HEADER SECTION ========== */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	background: transparent;
+	transition: 0.5s;
+}
+
+.nav {
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.logo,
+.nav-toggle,
+.nav-close {
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.nav-toggle {
+	font-size: 1.3rem;
+}
+
+@media screen and (max-width: 767px) {
+	.nav-menu {
+		position: fixed;
+		background: var(--dark-clr);
+		top: -100%;
+		left: 0;
+		width: 100%;
+		padding: 4rem 0;
+		transition: 0.4s;
+	}
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 3rem;
+}
+
+.nav-link {
+	color: var(--white-clr);
+	font-size: 1.3rem;
+	font-weight: 500;
+	transition: 0.4s;
+}
+
+.nav-link:hover {
+	color: rgba(204, 204, 204, 204);
+}
+
+.nav-close {
+	position: absolute;
+	top: 1rem;
+	right: 1.2rem;
+	font-size: 2rem;
+}
+
+.show-menu {
+	top: 0;
+}
+
+.scroll-header {
+	background: var(--dark-clr);
+}
+
+.scroll-header .nav {
+	height: 4rem;
+}
 
 /* ========== HERO SECTION ========== */
+.home {
+	height: 100vh;
+}
+
+.home-img {
+	width: 350px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.home-img img {
+	max-width: 450px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.home-data {
+	margin-top: 4rem;
+}
+
+.home-subtitle {
+	font-size: 1.125rem;
+}
+
+.home-title {
+	font-size: 3.1rem;
+}
+
+.home-description {
+	margin-top: 1rem;
+	line-height: 2rem;
+	color: rgba(255, 255, 255, 0.787);
+}
+
+.buttons {
+	margin-top: 3rem;
+}
+
+.tech {
+	margin-right: 0.7rem;
+}
 
 /* ========== DESIGN SECTION ========== */
 
 /* ========== .FEATURES SECTION ========== */
 
 /* ========== .CASE SECTION ========== */
+
+/* ========== PRODUCT SECTION ========== */
+
+/* ========== FOOTER SECTION ========== */
+
+
+/* ========== SCREEN SIZES ========== */
+/* For small devices */
+
+/* For large devices */
+
+/* For larger devices */
+
 
